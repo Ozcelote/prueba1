@@ -113,8 +113,8 @@ div#secondDiv {
 	font-size: 36px;
 	font-weight: bolder;
 	text-align: center;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 250px;
+	padding-right: 250px;
 	flex-direction: column;
 
 }
@@ -127,18 +127,26 @@ div#informacion {
 
 }
 
-div#informacion div {
+/*Aqui especifique a que item dentro de #informacion queria darle margen,
+ ya que le estaba dando a TODO lo que estaba dentro de el y quite el supuesto 
+ flex que en realidad era erroneo ya que el div dentro de informacion no era un flex container*/
 
-	flex: 1 1 0%;
-	margin: 10px;
+div#itemDeInfo {
+
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
 
 }
+
+/*en vez de especificar la altura de el cuadro, preferi utilizar padding de 100% para que se hiciera automatico*/
 
 div#cuadro {
 
 	border: 4px solid #3882F6;
-	border-radius: 10px;
-	height: 200px;
+	border-radius: 30px;
+	padding-top: 100%;
+	
 
 }
 
