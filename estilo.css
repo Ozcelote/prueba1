@@ -1,7 +1,7 @@
 * {
 
 	box-sizing: border-box;
-	font-family: Arial;
+	font-family: Tahoma;
 	padding: 0;
 	margin: 0;
 
@@ -12,6 +12,19 @@ h1 {
 	font-size: 48px;
 	font-weight: bold;
 	color: #F9FaF8;
+
+}
+
+button {
+	
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F9FaF8;
+	border: none;
+	padding: 10px 40px;
+	text-align: center;
+	border-radius: 10px;
 
 }
 
@@ -97,15 +110,6 @@ li#links a {
 
 }
 
-
-#button {
-
-	background-color: #3882F6;
-	text-align: center;
-	border-radius: 10px;
-
-}
-
 div#secondDiv {
 
 	background-color: #FFFFFF;
@@ -154,5 +158,80 @@ div#cuadro {
 
 	font-size: 18px;
 	font-weight: normal;
+
+}
+
+div#thirdDiv {
+
+	background-color: #E5E7EB;
+	flex-direction: row;
+
+}
+
+div#Quote {
+
+	flex: 1 1 0%;
+	font: italic 36px Arial;
+	margin: 120px 250px 120px 280px;
+	text-align: justify;
+	/*font-variant: small-caps; hace que las minusculas sean mayusculas de menor tamaño*/
+
+}
+
+p#QuoteAutor {
+
+	text-align: right;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+div#fourthDiv {
+
+	flex-direction: column;
+
+}
+
+div#blueDiv {
+
+	flex: 1 1 0%;
+	margin: 100px 180px;
+	background: #3882F6;
+	border-radius: 10px;
+
+}
+
+div#blueItem {
+
+	padding: 50px 60px;
+	align-content: center;
+	justify-content: center;
+
+}
+
+div#textBlue {
+
+	font-size: 20px;
+
+}
+
+button#buttonBlue {
+
+	background-color: #3882F6;
+	height: ;
+
+}
+
+div#footerDiv {
+
+	background-color: #1f2937;
+
+}
+
+div#footerText {
+
+	flex: 1 1 0%;
+	color: white;
+	margin: 40px 0px;
+	text-align: center;
 
 }
